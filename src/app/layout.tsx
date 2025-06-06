@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import './global.css';
 
 export const metadata: Metadata = {
   title: '유니메이트 - UniMate',
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body>{children}</body>
+      <body className="w-screen h-screen">{children}</body>
     </html>
   );
 }
