@@ -10,6 +10,7 @@ interface Props {
 const Page = ({ searchParams: { cityId } }: Props) => {
   return (
     <>
+      tes
       <HomeHeader />
       <ProductList cityId={normalizeString(cityId)} />
     </>
