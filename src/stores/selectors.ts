@@ -1,4 +1,4 @@
-import { AppStore } from './createAppStore';
+import { AppStore } from './rootStore';
 
 // UI 상태 셀렉터
 export const selectIsLoading = (state: AppStore) => state.isLoading;
